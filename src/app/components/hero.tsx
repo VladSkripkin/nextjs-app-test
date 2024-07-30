@@ -16,7 +16,7 @@ export default function Hero() {
                     </button>
                     <div className="hero-since flex flex-row justify-center items-center gap-2">
                         <p>Pushing the limits since 2013</p>
-                        <img src="/icon-since.svg" alt="since" width={18} height={14}/>
+                        <Image src="/icon-since.svg" alt="since" width={18} height={14}/>
                     </div>
                 </div>
             </div>

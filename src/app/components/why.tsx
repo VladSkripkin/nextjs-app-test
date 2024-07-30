@@ -7,7 +7,7 @@ export default function Why() {
                 <div className="features grid grid-cols-1 gap-8 mt-12 md:grid-cols-2 md:gap-10 lg:gap-20 lg:mt-24">
                     <div className="features-item">
                         <div className="icon">
-                            <img src="/why-1.svg" alt="icon"/>
+                            <Image src="/why-1.svg" alt="icon"/>
                         </div>
                         <div className="content">
                             <div className="title-sm title">Advanced Automation</div>
@@ -20,7 +20,7 @@ export default function Why() {
 
                     <div className="features-item">
                         <div className="icon">
-                            <img src="/why-2.svg" alt="icon"/>
+                            <Image src="/why-2.svg" alt="icon"/>
                         </div>
                         <div className="content">
                             <div className="title-sm title">Leveraging Large Language
@@ -35,7 +35,7 @@ export default function Why() {
 
                     <div className="features-item">
                         <div className="icon">
-                            <img src="/why-3.svg" alt="icon"/>
+                            <Image src="/why-3.svg" alt="icon"/>
                         </div>
                         <div className="content">
                             <div className="title-sm title">SAST/DAST Scanning</div>
@@ -48,7 +48,7 @@ export default function Why() {
 
                     <div className="features-item">
                         <div className="icon">
-                            <img src="/why-4.svg" alt="icon"/>
+                            <Image src="/why-4.svg" alt="icon"/>
                         </div>
                         <div className="content">
                             <div className="title-sm title">Compliance Governance</div>
@@ -61,7 +61,7 @@ export default function Why() {
 
                     <div className="features-item">
                         <div className="icon">
-                            <img src="/why-5.svg" alt="icon"/>
+                            <Image src="/why-5.svg" alt="icon"/>
                         </div>
                         <div className="content">
                             <div className="title-sm title">DevSecOps</div>
@@ -74,7 +74,7 @@ export default function Why() {
 
                     <div className="features-item">
                         <div className="icon">
-                            <img src="/why-6.svg" alt="icon"/>
+                            <Image src="/why-6.svg" alt="icon"/>
                         </div>
                         <div className="content">
                             <div className="title-sm title">Vulnerability Management</div>

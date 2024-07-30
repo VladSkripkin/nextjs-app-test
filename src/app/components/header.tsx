@@ -23,7 +23,7 @@ export default function Header() {
         <header className={`header fixed pt-5 pb-5 w-full z-20 md:pt-10 md:pb-10 ${isScrolled ? "scrolled" : ""}`}>
             <div className="header-mobile items-center justify-between hidden max-md:flex pl-4 pr-4">
                 <a href="/">
-                    <img src="/logo.svg" alt="logo" width={155} height={25}/>
+                    <Image src="/logo.svg" alt="logo" width={155} height={25}/>
                 </a>
                 <section className="mobile-menu flex md:hidden z-50">
                     <div
@@ -81,7 +81,7 @@ export default function Header() {
                     </li>
                     <li>
                         <a href="/">
-                            <img src="/logo.svg" alt="logo" width={155} height={25}/>
+                            <Image src="/logo.svg" alt="logo" width={155} height={25}/>
                         </a>
                     </li>
                     <li>

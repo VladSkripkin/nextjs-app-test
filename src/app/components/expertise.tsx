@@ -11,16 +11,16 @@ export default function Expertise() {
                 <div className="partners mt-12 md:mt-24 md:pl-16 lg:pl-72">
                     <div className="partners-list grid grid-cols-2 gap-5 sm:grid-cols-4 md:gap-10 lg:gap-20">
                         <div className="logo-item flex justify-center items-center">
-                            <img src="/elastic.png" alt="logo"/>
+                            <Image src="/elastic.png" alt="logo"/>
                         </div>
                         <div className="logo-item flex justify-center items-center">
-                            <img src="/splunk.png" alt="logo"/>
+                            <Image src="/splunk.png" alt="logo"/>
                         </div>
                         <div className="logo-item flex justify-center items-center">
-                            <img src="/gcloud.png" alt="logo"/>
+                            <Image src="/gcloud.png" alt="logo"/>
                         </div>
                         <div className="logo-item flex justify-center items-center">
-                            <img src="/aws.png" alt="logo"/>
+                            <Image src="/aws.png" alt="logo"/>
                         </div>
                     </div>
                     <div className="expertise-descr partners-descr w-full mt-12 md:mt-24">

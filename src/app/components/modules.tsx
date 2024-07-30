@@ -14,7 +14,7 @@ export default function Modules() {
                 <div className="modules-list mt-12 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <img src="/module-icon-1.png" alt="modules icon"/>
+                            <Image src="/module-icon-1.png" alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             AI-Driven Security Monitoring
@@ -26,7 +26,7 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <img src="/module-icon-2.png" alt="modules icon"/>
+                            <Image src="/module-icon-2.png" alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             Automated Incident Respons
@@ -38,7 +38,7 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <img src="/module-icon-3.png" alt="modules icon"/>
+                            <Image src="/module-icon-3.png" alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             Predictive Analysis
@@ -50,7 +50,7 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <img src="/module-icon-4.png" alt="modules icon"/>
+                            <Image src="/module-icon-4.png" alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             Process Optimization
@@ -62,7 +62,7 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <img src="/module-icon-5.png" alt="modules icon"/>
+                            <Image src="/module-icon-5.png" alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             Dynamic Threat Intelligence
@@ -73,7 +73,7 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item py-5 px-4 md:py-10 px-8 flex items-center justify-center">
                         <div className="modules-decor">
-                            <img src="/circle-decor.svg" alt="decor"/>
+                            <Image src="/circle-decor.svg" alt="decor"/>
                         </div>
                     </div>
                 </div>
