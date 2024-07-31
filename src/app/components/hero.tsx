@@ -8,7 +8,7 @@ export default function Hero() {
                     <strong>automation</strong>
                 </h1>
                 <div className="hero-subtitle text-center mt-4">
-                    In today&apos;s dynamic digital landscape, efficient security operations are crucial for organizational success and resilience. Cutting-edge automation transforms compliance governance and risk assessment.
+                    In today's dynamic digital landscape, efficient security operations are crucial for organizational success and resilience. Cutting-edge automation transforms compliance governance and risk assessment.
                 </div>
                 <div className="hero-bottom flex flex-col justify-center items-center gap-3 mt-10">
                     <button type="button" className="btn flex justify-center items-center h-14">
