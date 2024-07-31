@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from "react";
+import Image from 'next/image';
 
 export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -54,16 +55,16 @@ export default function Header() {
                             </svg>
                         </div>
                         <ul className="flex flex-col items-center justify-between min-h-[250px]">
-                            <li className="border-b border-gray-400 my-8 uppercase">
+                            <li className="my-4 uppercase" onClick={() => setIsNavOpen(false)}>
                                 <a href="#approach">Approach</a>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase">
+                            <li className="my-4 uppercase" onClick={() => setIsNavOpen(false)}>
                                 <a href="#services">Services </a>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase">
+                            <li className="my-4 uppercase" onClick={() => setIsNavOpen(false)}>
                                 <a href="#culture">Culture</a>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase">
+                            <li className=" my-4 uppercase" onClick={() => setIsNavOpen(false)}>
                                 <a href="#contact">Contact</a>
                             </li>
                         </ul>

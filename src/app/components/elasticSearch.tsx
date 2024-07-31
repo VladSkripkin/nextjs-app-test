@@ -1,8 +1,8 @@
-
+import Image from 'next/image'
 export default function ElasticSearch() {
     return(
         <section className="elastic-search relative py-20 max-md: py-10" id="services">
-            <div className="elastic-search-content relative z-1 flex flex-col flex-wrap gap-10 md:gap-20">
+            <div className="container elastic-search-content relative z-1 flex flex-col flex-wrap gap-10 md:gap-20">
                 <h2 className="title-l text-center">
                     Elastic Search and LLM<br/>
                     <strong>— a powerful combination</strong>

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const notoSans = Noto_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Test",
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
       <html lang="en" className="scroll-smooth">
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-              <body className={inter.className}>
+              <body className={notoSans.className}>
                   <Header/>
                   {children}
                   <Footer />

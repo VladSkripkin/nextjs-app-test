@@ -1,8 +1,8 @@
-
+import Image from 'next/image';
 export default function Modules() {
     return(
         <section className="modules py-20 max-md: py-10">
-            <div className="modules-content">
+            <div className="container">
                 <h2 className="title-l text-center">
                     GenAI Modules<br/>
                     <strong>in security and process automation</strong>
@@ -14,7 +14,10 @@ export default function Modules() {
                 <div className="modules-list mt-12 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <Image src="/module-icon-1.png" alt="modules icon"/>
+                            <Image src="/module-icon-1.png"
+                                   width={58}
+                                   height={58}
+                                   alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             AI-Driven Security Monitoring
@@ -26,7 +29,10 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <Image src="/module-icon-2.png" alt="modules icon"/>
+                            <Image src="/module-icon-2.png"
+                                   width={58}
+                                   height={58}
+                                   alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             Automated Incident Respons
@@ -38,7 +44,10 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <Image src="/module-icon-3.png" alt="modules icon"/>
+                            <Image src="/module-icon-3.png"
+                                   width={58}
+                                   height={58}
+                                   alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             Predictive Analysis
@@ -50,7 +59,10 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <Image src="/module-icon-4.png" alt="modules icon"/>
+                            <Image src="/module-icon-4.png"
+                                   width={58}
+                                   height={58}
+                                   alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             Process Optimization
@@ -62,7 +74,10 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item flex flex-col py-5 px-4 md:py-10 px-8">
                         <div className="icon">
-                            <Image src="/module-icon-5.png" alt="modules icon"/>
+                            <Image src="/module-icon-5.png"
+                                   width={58}
+                                   height={58}
+                                   alt="modules icon"/>
                         </div>
                         <div className="title-sm mt-6">
                             Dynamic Threat Intelligence
@@ -73,7 +88,10 @@ export default function Modules() {
                     </div>
                     <div className="modules-list-item py-5 px-4 md:py-10 px-8 flex items-center justify-center">
                         <div className="modules-decor">
-                            <Image src="/circle-decor.svg" alt="decor"/>
+                            <Image src="/circle-decor.svg"
+                                   width={58}
+                                   height={58}
+                                   alt="decor"/>
                         </div>
                     </div>
                 </div>

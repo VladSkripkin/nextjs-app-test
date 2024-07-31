@@ -9,7 +9,7 @@ import Slogan from "@/app/components/slogan";
 
 export default function Page() {
     return (
-        <div className="wrapper pl-4 pr-4">
+        <div className="content-wrapper pl-4 pr-4">
             <Hero />
             <Expertise />
             <Why />

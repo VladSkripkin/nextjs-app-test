@@ -1,8 +1,8 @@
-
+import Image from 'next/image';
 export default function Hero() {
     return(
         <div className="hero h-dvh">
-            <div className="hero-content h-full relative z-10 flex flex-col justify-center items-center">
+            <div className="container h-full relative z-10 flex flex-col justify-center items-center">
                 <h1 className="hero-title text-center m-0">
                     Efficiency comes with<br/>
                     <strong>automation</strong>
