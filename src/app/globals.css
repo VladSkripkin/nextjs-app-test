@@ -17,10 +17,18 @@
 }
 
 body {
+  background: #fff;
   font-family: 'Noto Sans', sans-serif;
   color: #1A1365;
   font-size: 16px;
   line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #fff;
+    color: #1A1365;
+  }
 }
 
 @layer utilities {
@@ -243,6 +251,10 @@ button {
 
 .features-item .content .text {
   margin: 22px 0 0;
+}
+
+[id] {
+  scroll-margin-top: 50px;
 }
 
 .elastic-search:before {
